@@ -40,7 +40,7 @@ def lookup(symbol):
 
     # Contact API
     try:
-        api_key = API_KEY
+        api_key = pk_45523a2c4fbc4cfbb4a5c492b8012194
         response = requests.get(f"https://cloud-sse.iexapis.com/stable/stock/{urllib.parse.quote_plus(symbol)}/quote?token={api_key}")
         response.raise_for_status()
     except requests.RequestException:
