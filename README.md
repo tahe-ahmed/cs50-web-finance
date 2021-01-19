@@ -1,4 +1,13 @@
-# cs50-web-finance
+# cs50-web-finance [Live](https://cs50-web-finance-pset.herokuapp.com/login)
+
+## Introduction 
+This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course. You can learn more about CS50 at Harvard's CS50.
+Implemented a website via which users can login , register, logout , “buy” and “sell” stocks, and view all the histroy transctions, a la the below.
+
+![REGISTER PAGE](./screenshot/REGISTER.png)
+![INDEX PAGE](./screenshot/INDEX.png)
+![HISTORY PAGE](./screenshot/HISTORY.png)
+
 
 ## Created with
 This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password, the stocks they bought or sold and the history. Technologies have been used :
@@ -67,12 +76,7 @@ Complete the implementation of  `history`  in such a way that it displays an HTM
 -   For each row, make clear whether a stock was bought or sold and include the stock’s symbol, the (purchase or sale) price, the number of shares bought or sold, and the date and time at which the transaction occurred.
 -   You might need to alter the table you created for  `buy`  or supplement it with an additional table. Try to minimize redundancies.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
-
-
-## Setup
+## Run
 
 You will need  [Python](https://www.python.org/downloads/)  and  [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)  installed on your computer to run this application.
 Start by installing  [Python 3](https://www.python.org/downloads/). Here's a  [guide on the installation](https://wiki.python.org/moin/BeginnersGuide/Download). Once you have Python, and clonned this repository, run the following commands:
