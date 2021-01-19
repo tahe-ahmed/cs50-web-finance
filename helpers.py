@@ -1,4 +1,4 @@
-from webconfig import API_KEY
+from config import API_KEY
 import requests
 import urllib.parse
 

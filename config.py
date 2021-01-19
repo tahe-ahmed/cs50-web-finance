@@ -1,7 +1,9 @@
 # config.py
 from os import getenv
+from dotenv import load_dotenv
+load_dotenv()
 
-SECRET_KEY = getenv('API_KEY', None)
+API_KEY = getenv('API_KEY', None)
 
 # use the key
-print(SECRET_KEY)
+# print(API_KEY)
