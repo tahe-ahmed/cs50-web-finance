@@ -4,9 +4,9 @@
 This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course. You can learn more about CS50 at Harvard's CS50.
 Implemented a website via which users can login , register, logout , “buy” and “sell” stocks, and view all the histroy transctions, a la the below.
 
-![REGISTER PAGE](./screenshot/REGISTER.png)
-![INDEX PAGE](./screenshot/INDEX.png)
-![HISTORY PAGE](./screenshot/HISTORY.png)
+![REGISTER PAGE](./screenshots/REGISTER.png)
+![INDEX PAGE](./screenshots/INDEX.png)
+![HISTORY PAGE](./screenshots/HISTORY.png)
 
 
 ## Created with
