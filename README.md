@@ -1,8 +1,8 @@
 # cs50-web-finance [Live](https://cs50-web-finance-pset.herokuapp.com/login)
 
 ## Introduction 
-This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course. You can learn more about CS50 at Harvard's CS50.
-Implemented a website via which users can login , register, logout , “buy” and “sell” stocks, and view all the histroy transctions, a la the below.
+This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course.
+Implemented a website via which users can login , register, logout , “buy” and “sell” stocks, and view all the history transactions, a la the below.
 
 ![REGISTER PAGE](./screenshots/REGISTER.png)
 ![INDEX PAGE](./screenshots/INDEX.png)
@@ -10,7 +10,7 @@ Implemented a website via which users can login , register, logout , “buy” a
 
 
 ## Created with
-This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password, the stocks they bought or sold and the history. Technologies have been used :
+This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQLite database to store users information, such as username, a hash of the password, the stocks they bought or sold and the history. Technologies have been used :
 * cs50==6.0.2
 * Flask==1.1.2
 * Flask-Session==0.3.2
